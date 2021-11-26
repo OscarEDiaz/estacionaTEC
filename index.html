@@ -4,43 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/c65ad8706b.js" crossorigin="anonymous"></script>
     <title>ETEC</title>
 </head>
 <body>
     <nav>
-        <p>ETEC</p>
-    </nav>
-    <section class="main-body">
-        <div class="parking-container">
-            <div class="box" id="box-1">
-                <div class="status" id="status-1"></div>
+        <div class="main-nav">
+            <div class="logo">
+                <p>ET</p>
             </div>
-            <div class="box" id="box-2">
-                <div class="status" id="status-2"></div>
+            <ul class="nav-items">
+                <li>
+                    <a href="#" style="color: #FFBD00;">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Donate</a>
+                </li>
+            </ul>
+        </div>
+        <div class="logos">
+            <div class="logo-ig">
+                <i class="fab fa-instagram"></i>
             </div>
-            <div class="box" id="box-3">
-                <div class="status" id="status-3"></div>
-            </div>
-            <div class="box" id="box-4">
-                <div class="status" id="status-4"></div>
-            </div>
-            <div class="box" id="box-5">
-                <div class="status" id="status-5"></div>
-            </div>
-            <div class="box" id="box-6">
-                <div class="status" id="status-6"></div>
-            </div>
-            <div class="box" id="box-7">
-                <div class="status" id="status-7"></div>
-            </div>
-            <div class="box" id="box-8">
-                <div class="status" id="status-8"></div>
+            <div class="logo-git">
+                <i class="fab fa-github"></i>
             </div>
         </div>
+    </nav>
+    <section class="landing-page">
+        <h1>
+            Estaciona TEC
+        </h1>
+        <ul class="landing-ul">
+            <li>
+                Estacionamiento en vivo
+            </li>
+            <li>
+                Actualización instantanea
+            </li>
+        </ul>
+        <div class="landing-btns">
+            <a href="parking.html" class="start-link">
+                <div class="landing-btn start">
+                    <p>Iniciar herramienta</p>
+                </div>
+            </a>
+            <a href="#" class="donate-link">
+                <div class="landing-btn donate">
+                    <p>Donar</p>
+                </div>
+            </a>
+        </div>
+        <img src="img/car.png" alt="carro" class="car-img">
     </section>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="app.js" async></script>
 </body>
 </html>

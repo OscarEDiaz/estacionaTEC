@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c65ad8706b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Parking</title>
+</head>
+<body>
+    <nav>
+        <div class="main-nav">
+            <div class="logo">
+                <p>ET</p>
+            </div>
+            <ul class="nav-items">
+                <li>
+                    <a href="index.html" style="color: #FFBD00;">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Donate</a>
+                </li>
+            </ul>
+        </div>
+        <div class="logos">
+            <div class="logo-ig">
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="logo-git">
+                <i class="fab fa-github"></i>
+            </div>
+        </div>
+    </nav>
+    <section class="parking">
+        <div class="main-container">
+            <p class="parking-title">Parking lot</h1>
+            <div class="parking-container">
+                <div class="first-row">
+                    <div class="box top">
+                        <div class="status top" id="status-1"></div>
+                        <img src="img/car-icon.png" alt="car icon" class="car-icon" id="car-icon1">
+                    </div>
+                    <div class="box top">
+                        <div class="status top" id="status-2"></div>
+                        <img src="img/car-icon.png" alt="car icon" class="car-icon" id="car-icon2">
+                    </div>
+                    <div class="box top">
+                        <div class="status top" id="status-3"></div>
+                        <img src="img/car-icon.png" alt="car icon" class="car-icon" id="car-icon3">
+                    </div>
+                    <div class="box top">
+                        <div class="status top" id="status-4"></div>
+                        <img src="img/car-icon.png" alt="car icon" class="car-icon" id="car-icon4">
+                    </div>
+                </div>
+                <div class="second-row">
+                    <div class="box bot">
+                        <img src="img/car-icon.png" alt="car icon" class="carbot" id="car-icon5">
+                        <div class="status bot" id="status-5"></div>
+                    </div>
+                    <div class="box bot">
+                        <img src="img/car-icon.png" alt="car icon" class="carbot" id="car-icon6">
+                        <div class="status bot" id="status-6"></div>
+                    </div>
+                    <div class="box bot">
+                        <img src="img/car-icon.png" alt="car icon" class="carbot" id="car-icon7">
+                        <div class="status bot" id="status-7"></div>
+                    </div>
+                    <div class="box bot">
+                        <img src="img/car-icon.png" alt="car icon" class="carbot" id="car-icon8">
+                        <div class="status bot" id="status-8"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="symbology-aux">
+        <div class="symbology-menu">
+            <div class="symbology" id="symb">
+                <p>Click for symbology</p>
+            </div>
+            <div class="symb-container" id="symb-ctn">
+                <ul>
+                    <li>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            Unavailable
+                            <div style="width: 20px; height: 20px; background-color: #FF0054; margin-left: 10px;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            Available
+                            <div style="width: 20px; height: 20px; background-color: #00db25; margin-left: 10px;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            No info
+                            <div style="width: 20px; height: 20px; background-color: #afafaf; margin-left: 10px;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/symbology.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="scripts/app.js" async></script>
+</body>
+</html>
