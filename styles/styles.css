@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:  'Mulish', sans-serif;;
     box-sizing: border-box;
 }
 
@@ -8,7 +9,7 @@
 nav{
     display: flex;
     height: 13vh;
-    background-color: #390099;
+    background-color: #ffffff;
     align-items: center;
     justify-content: space-between;
 }
@@ -22,16 +23,15 @@ nav{
 .logo{
     margin-left: 40px;
     display: flex;
-    width: 50px;
     height: 50px;
     justify-content: center;
     align-items: center;
-    background-color: #FF0054;
+
 }
 
 .logo > p{
-    font-family: Muli;
-    color: white;
+
+    color: black;
 }
 
 .nav-items{
@@ -48,8 +48,7 @@ nav{
 
 .nav-items > li > a {
     text-decoration: none;
-    color: white;
-    font-family: Muli;
+    color: rgb(0, 0, 0);
 }
 
 .logo-ig{
@@ -96,22 +95,21 @@ nav{
     display: flex;
     flex-direction: column;
     height: 87vh;
-    background-color: #390099;
+    background-color:white;
 }
 
 h1{
     margin-left: 40px;
     margin-top: 50px;
-    color: white;
-    font-family: Muli;
+    color: black;
     font-size: 64px;
     font-weight: bold;
 }
 
 .landing-ul{
-    color: white;
+    color: black;
     margin-left: 60px;
-    font-family: Muli;
+
     font-size: 18px;
 }
 
