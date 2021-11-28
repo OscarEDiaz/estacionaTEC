@@ -186,6 +186,73 @@ h1{
 }
 
 /* Parking section */
+.main-nav-parking{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-items-parking{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items-parking > li{
+    font-family:  'Mulish', sans-serif;
+    margin-right: 20px;
+}
+
+.logo-ig-parking{
+    background: rgb(131,58,180);
+    background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(225,48,108,1) 41%, rgba(252,176,69,1) 100%); 
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-ig-parking > i{
+    color: white;
+    font-size: 25px;
+}
+
+.logo-git-parking{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #4078C0;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-git-parking > i{
+    color: white;
+    font-size: 25px;
+}
+
+.logos-parking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items-parking > li > a {
+    text-decoration: none;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 31px;
+}
+
 .parking{
     height: 87vh;
     display: flex;
