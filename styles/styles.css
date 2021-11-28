@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family:  'Mulish', sans-serif;;
+    font-family:  'Mulish', sans-serif;
     box-sizing: border-box;
 }
 
@@ -43,12 +43,22 @@ nav{
 }
 
 .nav-items > li{
-    margin-left: 40px;
+    font-family:  'Mulish', sans-serif;
+    margin-left: 80px;
+
+}
+
+.nav-items{
+    margin-left: 400px;
 }
 
 .nav-items > li > a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 31px;
 }
 
 .logo-ig{
