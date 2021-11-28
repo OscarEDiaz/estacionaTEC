@@ -44,7 +44,6 @@ nav{
 }
 
 .logo > p{
-
     color: black;
 }
 
@@ -63,7 +62,7 @@ nav{
 }
 
 .nav-items{
-    margin-left: 400px;
+    margin-left: 600px;
 }
 
 .nav-items > li > a {
@@ -93,7 +92,7 @@ nav{
 }
 
 .logos{
-    margin-top: 85%;
+    margin-top: 80%;
     margin-left: 3%;
     position: absolute;
 }
@@ -218,7 +217,6 @@ h1{
 
 .nav-items-parking > li{
     font-family:  'Mulish', sans-serif;
-    margin-right: 20px;
 }
 
 .logo-ig-parking{
@@ -261,6 +259,7 @@ h1{
 
 .nav-items-parking > li > a {
     text-decoration: none;
+    color: #414FA0;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
