@@ -7,7 +7,7 @@
 
 /* Nav Bar */
 .landing-page-main{
-    background-image: url('https://github.com/TrevorBeltmont/estacionaTEC/blob/v1.0/img/mainimg.png');
+    background-image: url('/img/mainimg.jpg');
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: contain;
@@ -34,14 +34,6 @@ nav{
     align-items: center;
 }
 
-.shinji {
-    background: url('img/mainimg.png');
-    display: inline-block;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    display: inline-block;
-}
 
 .logo > p{
     color: black;
