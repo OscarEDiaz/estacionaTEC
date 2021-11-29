@@ -1,6 +1,6 @@
 $(document).ready(function done() {
   $.ajax({
-    url: 'https://api.thingspeak.com/channels/1570334/fields/field1/last.txt?api_key=6YL1A5OTGXBXAL8K',
+    url: 'https://api.thingspeak.com/channels/1585063/fields/field1/last.txt?api_key=BLCQHF97S1EFP9O2',
     type: 'GET',
     data: {
       format: 'text'
@@ -32,7 +32,7 @@ $(document).ready(function done() {
 
 $(document).ready(function done() {
   $.ajax({
-    url: 'https://api.thingspeak.com/channels/1570334/fields/field2/last.txt?api_key=6YL1A5OTGXBXAL8K',
+    url: 'https://api.thingspeak.com/channels/1585063/fields/field2/last.txt?api_key=BLCQHF97S1EFP9O2',
     type: 'GET',
     data: {
       format: 'text'
@@ -64,7 +64,7 @@ $(document).ready(function done() {
 
 $(document).ready(function done() {
   $.ajax({
-    url: 'https://api.thingspeak.com/channels/1570334/fields/field3/last.txt?api_key=6YL1A5OTGXBXAL8K',
+    url: 'https://api.thingspeak.com/channels/1585063/fields/field3/last.txt?api_key=BLCQHF97S1EFP9O2',
     type: 'GET',
     data: {
       format: 'text'
@@ -96,7 +96,7 @@ $(document).ready(function done() {
 
 $(document).ready(function done() {
   $.ajax({
-    url: 'https://api.thingspeak.com/channels/1570334/fields/field4/last.txt?api_key=6YL1A5OTGXBXAL8K',
+    url: 'https://api.thingspeak.com/channels/1585063/fields/field4/last.txt?api_key=BLCQHF97S1EFP9O2',
     type: 'GET',
     data: {
       format: 'text'
@@ -128,7 +128,7 @@ $(document).ready(function done() {
 
 $(document).ready(function done() {
   $.ajax({
-    url: 'https://api.thingspeak.com/channels/1570334/fields/field5/last.txt?api_key=6YL1A5OTGXBXAL8K',
+    url: 'https://api.thingspeak.com/channels/1585063/fields/field5/last.txt?api_key=BLCQHF97S1EFP9O2',
     type: 'GET',
     data: {
       format: 'text'
@@ -160,7 +160,7 @@ $(document).ready(function done() {
 
 $(document).ready(function done() {
   $.ajax({
-    url: 'https://api.thingspeak.com/channels/1570334/fields/field6/last.txt?api_key=6YL1A5OTGXBXAL8K',
+    url: 'https://api.thingspeak.com/channels/1585063/fields/field6/last.txt?api_key=BLCQHF97S1EFP9O2',
     type: 'GET',
     data: {
       format: 'text'
@@ -192,7 +192,7 @@ $(document).ready(function done() {
 
 $(document).ready(function done() {
   $.ajax({
-    url: 'https://api.thingspeak.com/channels/1570334/fields/field7/last.txt?api_key=6YL1A5OTGXBXAL8K',
+    url: 'https://api.thingspeak.com/channels/1585063/fields/field7/last.txt?api_key=BLCQHF97S1EFP9O2',
     type: 'GET',
     data: {
       format: 'text'
@@ -224,7 +224,7 @@ $(document).ready(function done() {
 
 $(document).ready(function done() {
   $.ajax({
-    url: 'https://api.thingspeak.com/channels/1570334/fields/field8/last.txt?api_key=6YL1A5OTGXBXAL8K',
+    url: 'https://api.thingspeak.com/channels/1585063/fields/field8/last.txt?api_key=BLCQHF97S1EFP9O2',
     type: 'GET',
     data: {
       format: 'text'
