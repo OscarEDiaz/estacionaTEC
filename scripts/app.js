@@ -22,7 +22,7 @@ $(document).ready(function done() {
       }
       setTimeout(function(){
         done();
-      }, 2000);
+      }, 1000);
     },
     error: function() {
       $('#errors').text("Error");
@@ -54,7 +54,7 @@ $(document).ready(function done() {
       }
       setTimeout(function(){
         done();
-      }, 2000);
+      }, 1000);
     },
     error: function() {
       $('#errors').text("Error");
@@ -86,7 +86,7 @@ $(document).ready(function done() {
       }
       setTimeout(function(){
         done();
-      }, 2000);
+      }, 1000);
     },
     error: function() {
       $('#errors').text("Error");
@@ -118,7 +118,7 @@ $(document).ready(function done() {
       }
       setTimeout(function(){
         done();
-      }, 2000);
+      }, 1000);
     },
     error: function() {
       $('#errors').text("Error");
@@ -150,7 +150,7 @@ $(document).ready(function done() {
       }
       setTimeout(function(){
         done();
-      }, 2000);
+      }, 1000);
     },
     error: function() {
       $('#errors').text("Error");
@@ -182,7 +182,7 @@ $(document).ready(function done() {
       }
       setTimeout(function(){
         done();
-      }, 2000);
+      }, 1000);
     },
     error: function() {
       $('#errors').text("Error");
@@ -214,7 +214,7 @@ $(document).ready(function done() {
       }
       setTimeout(function(){
         done();
-      }, 2000);
+      }, 1000);
     },
     error: function() {
       $('#errors').text("Error");
@@ -246,7 +246,7 @@ $(document).ready(function done() {
       }
       setTimeout(function(){
         done();
-      }, 2000);
+      }, 1000);
     },
     error: function() {
       $('#errors').text("Error");
