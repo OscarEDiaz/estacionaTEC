@@ -33,15 +33,6 @@ nav{
     align-items: center;
 }
 
-.shinji {
-    background: url('img/mainimg.png');
-    display: inline-block;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    display: inline-block;
-}
-
 .logo > p{
     color: black;
 }
